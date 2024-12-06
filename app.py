@@ -1,4 +1,3 @@
-
 #Variables
 #patient_name = 'John Smith'
 #age = 20
@@ -101,11 +100,53 @@ while i <= 5:
 """
 
 #list
-names = ["John", "Bob", "Mosh", "Sam", "Mary"]
-names[0] = "Jon"
+#names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+#names[0] = "Jon"
 #print(names)
 #print(names[0:3])
 #length of the list
 # print(len(names))
 #type of list
-print(type(names))
+#print(type(names))
+"""
+#list objects
+numbers = [1, 2, 3, 4]
+print(numbers)
+#inserting a number at the beginning of the list
+numbers.insert(0, -1)
+print(numbers)
+
+print(10 in numbers)
+print(1 in numbers)
+"""
+
+#for loop
+"""
+numbers = [1, 2, 3,4,5]
+for item in numbers :
+    print(item)
+
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i = i + 1
+    
+"""
+
+# range function is used to generate a sequence of numbers
+
+#numbers = range(5,10)
+#for number in numbers:
+  #  print(number)
+
+
+
+#Tuples are immutable
+
+
+fruits = ["Mango" , "Guava" , "Cassava"]
+#for fruit in fruits:
+    #print(fruit, end=" ")
+
+fruits[2] = "Pear"
+print(fruits)
